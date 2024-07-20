@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('C:\Users\cw\Downloads\caviar_dreams') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.body{
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(225, 255, 255);
+    }
+
+
+.top{
+    height: 500px;
+    background-color: #B5EAEA;    
+}
+
+
+.mid{
+    display: flex;
+    justify-content: center;
+    background-color: #EDF6E5;
+    height: 500px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: #FFBCBC;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.feedback{
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    background-color: #F38BA0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+
+
+
+
+
