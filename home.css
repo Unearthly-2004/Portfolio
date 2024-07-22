@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+
+button:hover{
+    background-color: #2ab38e;
+}
 .container{
     display: flex;
     justify-content: space-around;
@@ -30,6 +34,7 @@
 .mid{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #EDF6E5;
     height: 500px;
     font-family:'Courier New', Courier, monospace;
@@ -38,17 +43,26 @@
 .bottom{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 600px;
     background-color: #FFBCBC;
     font-family:'Courier New', Courier, monospace;
 }
 
 .feedback{
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 600px;
     background-color: #F38BA0;
     font-family:'Courier New', Courier, monospace;
+}
+
+.confidential{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    margin-top: 550px
 }
 
 
