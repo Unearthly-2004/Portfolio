@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+@keyframes changeWidthAndColor {
+    0% {
+      width: 20px; /* initial width */
+      background-color: red; /* initial color */
+      transform: rotate(0deg);
+      color: red;
+    }
+    50% {
+      width: 40px; /* middle width */
+      background-color: green; /* middle color */
+      transform: rotate(180deg);
+      color: #2ab38e;
+    }
+    100% {
+      width: 60px; /* final width */
+      background-color: rgb(204, 204, 234); /* final color */
+      transform: rotate(360deg);
+      color: rgb(64, 64, 182);
+    }
+  }
+  
+
+
+
+button {
+    animation: changeWidthAndColor 5s 1 forwards; /* animation name, duration, and infinite loop */
+  }
+  
 
 button:hover{
     background-color: #2ab38e;
