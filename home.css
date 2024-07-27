@@ -53,6 +53,11 @@ button:hover{
     color: #fefffd;
 }
 
+#top-home{
+  position: absolute;
+  margin-top: 150px;
+}
+
 .top{
     height: 500px;
     background-color: #B5EAEA;   
@@ -90,6 +95,8 @@ button:hover{
     background-color: #F38BA0;
     font-family:'Courier New', Courier, monospace;
 }
+
+
 
 .below{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
